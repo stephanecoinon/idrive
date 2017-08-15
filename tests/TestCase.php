@@ -27,7 +27,13 @@ class TestCase extends BaseTestCase
 
     public function loadDotEnv()
     {
-        (new Dotenv(__DIR__.'/..'))->load();
+        $dotEnvPath = __DIR__.'/..';
+
+        // Only load .env if it exists
+        if (file_exists("$dotEnvPath/.env")) {
+            (new Dotenv($dotEnvPath))->load();
+        }
+
     }
 
     public function getFixturePath($path)
