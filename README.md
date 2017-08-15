@@ -1,5 +1,7 @@
 # Client for iDrive API
 
+[ ![Codeship Status for stephanecoinon/idrive](https://app.codeship.com/projects/63e28b60-642d-0135-f0b8-52716fedbf8c/status?branch=master)](https://app.codeship.com/projects/240308)
+
 This PHP package is a client for [iDrive](https://www.idrive.com) (cloud backup) API.
 
 ## Requirements
