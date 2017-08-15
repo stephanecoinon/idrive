@@ -1,0 +1,32 @@
+{
+    "name": "stephanecoinon/idrive",
+    "description": "Client for iDrive API",
+    "keywords": ["idrive"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "7.*",
+        "ext-simplexml": "*",
+        "guzzlehttp/guzzle": "^6.3",
+        "league/container": "^2.4",
+        "nesbot/carbon": "^1.22"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3",
+        "mockery/mockery": "^0.9.9",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "StephaneCoinon\\IDrive\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        },
+        "files": [
+            "tests/test_helpers.php"
+        ]
+    }
+}
