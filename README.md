@@ -10,7 +10,7 @@ This PHP package is a client for [iDrive](https://www.idrive.com) (cloud backup)
 ## Installation
 
 ```
-composer require stephanecoinon/idrive
+composer require stephanecoinon/idrive:dev-master@dev
 ```
 
 ## Usage
